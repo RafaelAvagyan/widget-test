@@ -8,7 +8,7 @@ function App() {
     script.async = true;
     script.setAttribute('data-telegram-login', 'CreateTodoBot');
     script.setAttribute('data-size', 'large');
-    script.setAttribute('data-auth-url', 'https://widget-test-seven.vercel.app');
+    script.setAttribute('data-auth-url', 'https://widget-test-seven.vercel.app/');
     script.setAttribute('data-request-access', 'write');
     
     document.body.appendChild(script);
